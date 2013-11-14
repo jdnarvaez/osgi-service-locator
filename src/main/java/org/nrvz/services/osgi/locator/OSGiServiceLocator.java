@@ -12,6 +12,17 @@ import org.osgi.framework.InvalidSyntaxException;
 import org.osgi.framework.ServiceReference;
 import org.osgi.framework.ServiceRegistration;
 
+/**
+ * {@link BundleActivator} implementation that faciliates the lookup of services through
+ * the running OSGi framework context.
+ * 
+ * <p style="font-style:font-face:Helvetica;italic;font-variant:small-caps;font-size:80%">
+ * Copyright&copy; 2013 All rights reserved.<br>
+ * Creation Date: 14 November 2013
+ * </p>
+ * 
+ * @author Juan Narvaez [JN015941]
+ */
 public class OSGiServiceLocator implements BundleActivator
 {
 	/**
