@@ -13,7 +13,7 @@ import org.osgi.framework.ServiceReference;
 import org.osgi.framework.ServiceRegistration;
 
 /**
- * {@link BundleActivator} implementation that faciliates the lookup of services through
+ * {@link BundleActivator} implementation that facilitates the lookup of services through
  * the running OSGi framework context.
  * 
  * <p style="font-style:font-face:Helvetica;italic;font-variant:small-caps;font-size:80%">
